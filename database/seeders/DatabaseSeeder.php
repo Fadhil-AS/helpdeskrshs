@@ -23,5 +23,7 @@ class DatabaseSeeder extends Seeder
         $this->call(OperatorUnitKerjaSeeder::class);
         $this->call(UnitKerjaSeeder::class);
         $this->call(PengaduanSeeder::class);
+        $this->call(ChatSeeder::class);
+        $this->call(ChatBotSeeder::class);
     }
 }
