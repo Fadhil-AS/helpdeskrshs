@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // kategori faq
         Schema::create('tb_kategori_faq', function (Blueprint $table) {
             $table->increments('id_kategori_faq')->primary();
             $table->string('nama_kategori', 255);

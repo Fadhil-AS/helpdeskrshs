@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // direksi
         Schema::create('tb_direksi', function (Blueprint $table) {
             $table->increments('id_direksi')->primary();
             $table->string('nama_lengkap', 255);

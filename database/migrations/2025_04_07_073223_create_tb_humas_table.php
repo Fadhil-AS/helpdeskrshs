@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // humas
         Schema::create('tb_humas', function (Blueprint $table) {
             $table->increments('id_humas')->primary();
             $table->string('nama_lengkap', 255);

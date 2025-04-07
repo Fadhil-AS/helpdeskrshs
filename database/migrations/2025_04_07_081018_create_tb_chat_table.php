@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // chat
         Schema::create('tb_chat', function (Blueprint $table) {
             $table->increments('id_chat')->primary();
             $table->unsignedInteger('id_pengaduan');

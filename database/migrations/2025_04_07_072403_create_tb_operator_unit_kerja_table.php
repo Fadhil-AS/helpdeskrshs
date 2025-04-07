@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // operator unit kerja
         Schema::create('tb_operator_unit_kerja', function (Blueprint $table) {
             $table->increments('id_operator_unit_kerja')->primary();
             $table->string('nama_lengkap', 255);

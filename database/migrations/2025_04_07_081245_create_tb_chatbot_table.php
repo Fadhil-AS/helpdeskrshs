@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // chatbot
         Schema::create('tb_chatbot', function (Blueprint $table) {
             $table->increments('id_chatbot')->primary();
             $table->unsignedInteger('id_chat');

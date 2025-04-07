@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // users
         Schema::create('tb_users', function (Blueprint $table) {
             $table->increments('id_users')->primary();
             $table->unsignedInteger('id_direksi');
