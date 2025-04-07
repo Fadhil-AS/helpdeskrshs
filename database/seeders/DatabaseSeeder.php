@@ -19,5 +19,9 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        $this->call(OperatorUnitKerjaSeeder::class);
+        $this->call(UnitKerjaSeeder::class);
+        $this->call(PengaduanSeeder::class);
     }
 }
