@@ -14,7 +14,7 @@ return new class extends Migration
         // chatbot
         Schema::create('tb_chatbot', function (Blueprint $table) {
             $table->increments('id_chatbot')->primary();
-            $table->unsignedInteger('id_chat');
+            $table->unsignedInteger('id_chat')->nullable();
             $table->foreign('id_chat')
                 ->references('id_chat')
                 ->on('tb_chat')
