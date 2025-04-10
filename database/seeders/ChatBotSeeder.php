@@ -93,12 +93,12 @@ class ChatBotSeeder extends Seeder
             // ---------------------------------------
             [
                 'id_chat'      => $chatIds[array_rand($chatIds)],
-                'tgl_cluster'  => '2025-03-07',
+                'tgl_cluster'  => '2025-03-10',
                 'hari_cluster' => strtolower('SENIN'),
                 'ksm'          => strtolower('ANESTESIOLOGI'),
                 'poli'         => strtolower('KLINIK ANESTESI & TERAPI NYERI'),
-                'cluster'      => strtolower('CLUSTER 1 (PAGI 07:30 - 11:00)'),
-                'dokter'       => 'dr. Muchammad Erias Erlangga, Sp.An.',
+                'cluster'      => strtolower('CLUSTER 4 (SIANG 13:00 - 15:00)'),
+                'dokter'       => 'dr. Nurita Dian Kestriani S.S, Sp.An.,KIC',
                 'quota'        => '20',
                 'informasi'    => strtolower('KAMAR : DEFAULT dan MEJA :1'),
                 'created_at'   => Carbon::now(),
